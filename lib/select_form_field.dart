@@ -521,7 +521,6 @@ class _SelectFormFieldState extends FormFieldState<String> {
       items: _renderItems(),
     );
 
-    print(pickedValue);
     if (pickedValue == null) {
       isNull = true;
     }
