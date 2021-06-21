@@ -526,7 +526,7 @@ class _SelectFormFieldState extends FormFieldState<String> {
       isNull = true;
     }
 
-    String lvPicked = isNull ? "boxValue" : pickedValue;
+    String lvPicked = isNull ? "forever" : pickedValue;
 
     if (lvPicked != value) {
       _item = widget.items?.firstWhere(
