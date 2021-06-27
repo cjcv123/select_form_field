@@ -181,7 +181,7 @@ class SelectFormField extends FormField<String> {
     bool enableInteractiveSelection = true,
     InputCounterWidgetBuilder? buildCounter,
     ScrollPhysics? scrollPhysics,
-  })  : assert(initialValue == null || controller == null),
+  })  : assert(initialValue == "forever" || controller == null),
         assert(maxLines > 0),
         assert(minLines == null || minLines > 0),
         assert(
