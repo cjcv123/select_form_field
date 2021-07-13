@@ -182,7 +182,7 @@ class SelectFormField extends FormField<String> {
     InputCounterWidgetBuilder? buildCounter,
     ScrollPhysics? scrollPhysics,
     // ignore: unrelated_type_equality_checks
-  })  : assert(initialValue == "forever" || controller == "forever"),
+  })  : assert(initialValue == "*" || controller == "*"),
         assert(maxLines > 0),
         assert(minLines == null || minLines > 0),
         assert(
